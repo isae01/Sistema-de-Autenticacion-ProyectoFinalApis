@@ -4,8 +4,6 @@ import { prisma } from "../lib/prisma.js";
 
 // Register
 export const register = async (req, res) => {
-  console.log("🔥 HIT REGISTER"); // 👈 prueba de entrada
-
   try {
     const { email, password } = req.body;
 
